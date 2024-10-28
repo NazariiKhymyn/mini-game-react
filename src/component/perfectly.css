@@ -1,0 +1,28 @@
+.perfectly {
+  background-color: hwb(324 24% 5%);
+  font-size: xx-large;
+  width: 250px;
+  height: 200px;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  font-family: sans-serif;
+  animation: exampleAnimation 4s infinite;
+}
+
+@keyframes exampleAnimation {
+  0% {
+    background-color: hwb(324 24% 5%);
+    transform: scale(0.8);
+  }
+  50% {
+    background-color: hsl(62, 100%, 50%);
+    transform: scale(1.1);
+  }
+  100% {
+    background-color: hwb(324 24% 5%);
+    transform: scale(0.8);
+  }
+}
